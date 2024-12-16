@@ -91,7 +91,9 @@ public class UIComponent {
     }
 
     private void validValue(){
+
         Printer.info("UIComponent id="+id+": ошибка валидации!");
+        valid=false;
     }
 
     public void processApplication(){
